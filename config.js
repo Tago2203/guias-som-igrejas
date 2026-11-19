@@ -8,7 +8,7 @@ window.OFERTA = {
   mostrarAncora: true,
   checkoutUrl: "https://pay.hotmart.com/K108561502Y?off=0f5ksbrd",           // Checkout da oferta de 7 guias na Hotmart (produto 9011998). Vazio = botao em modo rascunho.
   utm: { passar: true, params: ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "fbclid", "src"] },
-  pixel: { ativo: false, id: "1139067038607155", eventoClique: "ClicouComprar" },   // Pixel Meta ja existente. Ligar (ativo: true) so na publicacao. eventoClique: evento proprio no clique de comprar, para NAO repetir o InitiateCheckout que a Hotmart ja manda quando o checkout abre.
+  pixel: { ativo: true, id: "1139067038607155", eventoClique: "ClicouComprar" },   // Pixel Meta ja existente. Ligar (ativo: true) so na publicacao. eventoClique: evento proprio no clique de comprar, para NAO repetir o InitiateCheckout que a Hotmart ja manda quando o checkout abre.
   garantiaDias: 7,           // garantia da Hotmart (registro de 03/11; reconferir antes de publicar)
   pagamentos: "Pix, cartão em até 3x (com acréscimo), boleto e PayPal",   // lido no checkout do Mapa em 18/11; confirmar no checkout da oferta nova
   guias: [
